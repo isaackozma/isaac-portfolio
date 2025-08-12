@@ -1,0 +1,158 @@
+.app-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: white;  /* Add this */
+    border-radius: 8px;       /* Optional: a little rounding */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+  }
+  
+  header {
+    text-align: center; 
+  }
+  
+  
+  .header h1 {
+    font-size: 2.5rem;
+    /* margin-bottom: 10px; */
+    text-align: center;
+  }
+
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  section {
+    margin-bottom: 40px;
+    text-align: center;
+    padding: auto;
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #222;
+    padding-bottom: 5px;
+  }
+  
+  .projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  
+  .projects li {
+    margin-bottom: 10px;
+  }
+  
+  .contact p {
+    font-size: 1rem;
+  }
+  
+
+  .nav {
+    background-color: #222;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  nav a {
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  section {
+    padding: 4rem 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav a:hover {
+    color: #1e90ff;
+  }
+  
+  
+  .project-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(48, 48, 60);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  
+  
+  .project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+    color: #fdfdfd;
+  }
+
+  .project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-card a:hover {
+    text-decoration: underline;
+  }
+
+  .cv-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cv-button:hover {
+    background-color: #0d74d1;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 1.5rem auto; /* space above & below image */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+  
