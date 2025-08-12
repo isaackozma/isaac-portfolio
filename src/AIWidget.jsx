@@ -53,7 +53,7 @@ function AIWidget() {
   return (
     <div className="ai-widget">
       <h3>Talk to My AI Assistant</h3>
-      <p className="ai-subtext">Ask something like "What are your skills?", "Tell me about your AI projects.", "skills", "experience".</p>
+      <p className="ai-subtext">Ask something like "What are your skills?", "Tell me about your AI projects.", "hello", "experience".</p>
       <input
         type="text"
         value={input}
