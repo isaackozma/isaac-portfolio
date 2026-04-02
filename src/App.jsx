@@ -55,6 +55,9 @@ function App() {
               <p>  Built an interactive web application that analyzes NFL Combine performance using position-adjusted scoring. The tool generates an athletic score out of 100, ranks players within their position, and identifies historically similar athletes based on combine metrics. Includes filtering, data visualisation, and real-time player search using Streamlit.</p>
               <p><strong>Skills:</strong> Python, Pandas, NumPy, Streamlit, Data Analysis, Data Visualisation, Algorithm Design.</p>
               <a href="https://nfl-combine-analytics-bfpf5stst4sptnsw536ndy.streamlit.app" target="_blank">Live Demo</a>
+              <p>
+                
+              </p>
               <a href="https://github.com/isaackozma/nfl-combine-analytics.git" target="_blank">View code</a>
           </div>
 
