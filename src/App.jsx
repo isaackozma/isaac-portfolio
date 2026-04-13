@@ -89,10 +89,10 @@ function App() {
         </div>
       </section>
 
-      <section id="ai">
+      {/* <section id="ai">
         <h2>AI Assistant</h2>
         <AIWidget />
-      </section>
+      </section> */}
 
       <section id="contact">
         <h2>Contact</h2>
