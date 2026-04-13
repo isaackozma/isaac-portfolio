@@ -130,7 +130,7 @@ section p {
 
 .cv-button {
   display: inline-block;
-  margin-top: 20px;
+  margin: 20px auto 0;
   padding: 12px 22px;
   background-color: #1e90ff;
   color: white;
@@ -138,6 +138,17 @@ section p {
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.2s ease;
+}
+
+#about {
+  text-align: center;
+}
+
+#about p {
+  max-width: 680px;
+  margin: 0 auto 16px;
+  line-height: 1.7;
+  text-align: left;
 }
 
 .cv-button:hover {
