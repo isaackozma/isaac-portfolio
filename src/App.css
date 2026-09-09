@@ -151,6 +151,36 @@ section p {
   text-align: left;
 }
 
+.skills-heading {
+  max-width: 680px;
+  margin: 32px auto 16px;
+  text-align: left;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.skills-list {
+  max-width: 680px;
+  margin: 0 auto;
+  border: 1px solid #2b3038;
+  border-radius: 12px;
+  background-color: #171b22;
+  padding: 20px 24px;
+}
+
+.skills-list p {
+  margin: 0 0 10px;
+  line-height: 1.6;
+}
+
+.skills-list p:last-child {
+  margin-bottom: 0;
+}
+
+.skills-list strong {
+  color: #ffffff;
+}
+
 .cv-button:hover {
   background-color: #0d74d1;
 }
