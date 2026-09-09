@@ -20,10 +20,7 @@ function App() {
       <section id="about">
         <h2>About Me</h2>
         <p>
-          I'm a full stack developer with a strong foundation in software engineering, AI, and DevOps. I enjoy solving real-world problems, building meaningful digital products, and working in collaborative, fast-paced environments.
-        </p>
-        <p>
-          I graduated with a Bachelor of IT in December 2024, where I led development teams, built AI-powered applications using OpenAI APIs, developed GUI applications using object-oriented programming, and deployed systems using Docker and CI/CD pipelines. I also built modern web applications with React, including this portfolio.
+          Junior Software Engineer / Full Stack Developer with a Bachelor of Information Technology and hands-on experience building web applications, cloud infrastructure, and AI-powered tools. Strong foundation in JavaScript, Python, React, Node.js, AWS, and Docker, with team leadership experience delivering complex technical projects. Seeking junior software, backend, full stack, DevOps, or data/AI-focused roles based in Melbourne.
         </p>
         <p>
           <strong>Key Skills:</strong> JavaScript, React, Node.js, Python, Git, Docker, OpenAI API, AWS, MongoDB, Java, GitHub Actions, Agile
@@ -111,7 +108,7 @@ function App() {
       <section id="contact">
         <h2>Contact</h2>
         <p>Email: kozmaisaac@gmail.com</p>
-        <p>Phone: 07386803519</p>
+        <p>Phone: 0415798467</p>
         <p>
           LinkedIn:{' '}
           <a href="https://www.linkedin.com/in/isaac-kelly-a1a164208/" target="_blank" rel="noreferrer">
