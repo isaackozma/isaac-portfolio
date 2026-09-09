@@ -20,20 +20,14 @@ function App() {
       <section id="about">
         <h2>About Me</h2>
         <p>
-          Junior Software Engineer / Full Stack Developer with a Bachelor of Information Technology and hands-on experience building web applications, cloud infrastructure, and AI-powered tools. Strong foundation in JavaScript, Python, React, Node.js, AWS, and Docker, with team leadership experience delivering complex technical projects. Seeking junior software, backend, full stack, DevOps, or data/AI-focused roles based in Melbourne.
+          I'm a full stack developer with a strong foundation in software engineering, AI, and DevOps. I enjoy solving real-world problems, building meaningful digital products, and working in collaborative, fast-paced environments.
         </p>
-
-        <h3 className="skills-heading">Technical Skills</h3>
-        <div className="skills-list">
-          <p><strong>Languages:</strong> JavaScript, Python, Java, C# (.NET Core/ASP.NET Core), PHP, HTML/CSS</p>
-          <p><strong>Frameworks:</strong> React, Node.js, Express, Bootstrap</p>
-          <p><strong>DevOps &amp; Cloud:</strong> AWS, Docker, Terraform, Ansible, GitHub Actions</p>
-          <p><strong>Databases &amp; APIs:</strong> MongoDB, MySQL, PostgreSQL, REST APIs</p>
-          <p><strong>AI Tools:</strong> OpenAI API, LangChain, Hugging Face</p>
-          <p><strong>Data Science:</strong> Pandas, NumPy, Streamlit, Data Analysis, Data Visualisation</p>
-          <p><strong>Other:</strong> Git, Linux, Agile/Scrum</p>
-        </div>
-
+        <p>
+          I graduated with a Bachelor of IT in December 2024, where I led development teams, built AI-powered applications using OpenAI APIs, developed GUI applications using object-oriented programming, and deployed systems using Docker and CI/CD pipelines. I also built modern web applications with React, including this portfolio.
+        </p>
+        <p>
+          <strong>Key Skills:</strong> JavaScript, React, Node.js, Python, Git, Docker, OpenAI API, AWS, MongoDB, Java, GitHub Actions, Agile
+        </p>
         <a href="/Isaac_Kelly_CV_2025.pdf" download className="cv-button">
           Download My CV
         </a>
