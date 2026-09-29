@@ -36,21 +36,21 @@ export const projects = [
     links: {},
   },
   {
-    id: 'burrito-king',
-    title: 'Burrito King Ordering App',
+    id: 'food-in-space',
+    title: 'Food in Space Capstone Project',
     blurb:
-      'Desktop GUI restaurant ordering system for Burrito King, handling menu navigation, ordering logic, item and price calculations, and receipt generation.',
-    tags: ['Java', 'JavaFX', 'Databases', 'Problem Solving'],
+      'Led a team of four developers to deliver an immersive VR training simulation from concept to final release. Owned sprint planning, task allocation and stakeholder communication with academic and industry reviewers. Presented the final product to university and industry panels, achieving top marks for innovation and execution.',
+    tags: ['Leadership', 'Stakeholder Communication', 'UX', 'Unity', 'C#', 'Team Collaboration'],
     featured: false,
     links: {
-      code: 'https://github.com/FurtherProgramming2410/burrito-king-restaurant-isaackozma',
+      learnMore: 'https://www.rmit.edu.au/news/all-news/2024/july/space-food-aroma',
     },
   },
   {
     id: 'team-ecommerce',
-    title: 'Team E-Commerce Site',
+    title: 'E-Commerce Clothing Store',
     blurb:
-      'Collaborative e-commerce website built from scratch with responsive design, product browsing, cart functionality and user accounts.',
+      'Built a full-featured e-commerce platform including authentication, an admin panel and shopping cart logic. Implemented secure authentication and improved database query performance for a smoother user experience. Developed forum functionality and user profiles to simulate real-world commerce systems.',
     tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Team Collaboration'],
     featured: false,
     links: {
@@ -58,14 +58,14 @@ export const projects = [
     },
   },
   {
-    id: 'food-in-space',
-    title: 'Food in Space Capstone Project',
+    id: 'burrito-king',
+    title: 'Burrito King Ordering System',
     blurb:
-      'Led development within an RMIT innovation project improving food experiences for astronauts using VR and sensory technology. Worked with stakeholders and managed a team on UX and system design.',
-    tags: ['Leadership', 'Stakeholder Communication', 'UX', 'Unity', 'C#', 'Team Collaboration'],
+      'Built a modular JavaFX application for ordering with dynamic ingredient selection and pricing logic. Designed the OOP structure and validated inputs with a real-time pricing summary. Simulated a real-world ordering flow with modular functions for order summary and receipt logic.',
+    tags: ['Java', 'JavaFX', 'Databases', 'Problem Solving'],
     featured: false,
     links: {
-      learnMore: 'https://www.rmit.edu.au/news/all-news/2024/july/space-food-aroma',
+      code: 'https://github.com/FurtherProgramming2410/burrito-king-restaurant-isaackozma',
     },
   },
 ];
