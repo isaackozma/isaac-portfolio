@@ -6,9 +6,11 @@ function ProjectCard({ project, featured = false }) {
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface transition-colors hover:border-accent/50">
-      <div className="overflow-hidden">
-        <ProjectImage src={image} title={title} />
-      </div>
+      {image && (
+        <div className="overflow-hidden">
+          <ProjectImage src={image} title={title} />
+        </div>
+      )}
 
       <div className="flex flex-1 flex-col gap-4 p-6">
         <h3 className={featured ? 'text-xl font-bold text-ink' : 'text-lg font-bold text-ink'}>
