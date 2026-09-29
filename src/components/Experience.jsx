@@ -5,7 +5,9 @@ function Experience() {
   return (
     <section id="experience" className="border-t border-border py-20">
       <Reveal>
-        <h2 className="text-center text-2xl font-bold text-ink sm:text-3xl">Experience</h2>
+        <h2 className="text-center text-2xl font-bold text-ink sm:text-3xl">
+          Additional experience
+        </h2>
 
         <div className="mx-auto mt-12 flex max-w-2xl flex-col gap-6">
           {experience.map((job) => (
