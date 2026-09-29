@@ -19,9 +19,8 @@ export const projects = [
       'Designed and developed a website for a Melbourne-based clothing brand, contributing to over $50,000 in revenue through improved online presence and user experience.',
     tags: ['Shopify', 'UX Design', 'Client Communication'],
     featured: true,
-    links: {
-      demo: 'https://www.superniceclothing.com/',
-    },
+    note: 'Redevelopment in progress',
+    links: {},
   },
   {
     id: 'devops-deployment',

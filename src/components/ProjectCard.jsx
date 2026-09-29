@@ -2,7 +2,7 @@ import ProjectImage from './ProjectImage';
 import { CodeIcon, ExternalLinkIcon } from './icons';
 
 function ProjectCard({ project, featured = false }) {
-  const { title, blurb, tags, image, links } = project;
+  const { title, blurb, tags, image, links, note } = project;
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface transition-colors hover:border-accent/50">
@@ -63,6 +63,11 @@ function ProjectCard({ project, featured = false }) {
               <ExternalLinkIcon className="h-4 w-4" />
               Learn More
             </a>
+          )}
+          {note && (
+            <span className="inline-flex items-center rounded-full border border-dashed border-border px-2.5 py-1 text-xs italic text-ink-muted">
+              {note}
+            </span>
           )}
         </div>
       </div>
