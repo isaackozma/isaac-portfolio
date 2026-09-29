@@ -25,7 +25,7 @@ function Hero() {
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a
-            href="/Isaac_Kelly_CV_2025.pdf"
+            href="/Isaac_Kelly_Resume_2026.pdf"
             download
             className="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-bg transition-transform hover:-translate-y-0.5 hover:brightness-110 motion-reduce:transition-none motion-reduce:hover:translate-y-0"
           >

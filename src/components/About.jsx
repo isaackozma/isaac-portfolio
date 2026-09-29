@@ -2,7 +2,7 @@ import Reveal from './Reveal';
 
 const FACTS = [
   { label: 'Education', value: 'Bachelor of IT, RMIT' },
-  { label: 'Location', value: 'Melbourne, Australia' },
+  { label: 'Location', value: 'Melbourne, VIC' },
   { label: 'Focus', value: 'Full stack and DevOps' },
   { label: 'Interested in', value: 'Data and AI' },
 ];

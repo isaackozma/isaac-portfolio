@@ -6,16 +6,10 @@ function Experience() {
     <section id="experience" className="border-t border-border py-20">
       <Reveal>
         <h2 className="text-center text-2xl font-bold text-ink sm:text-3xl">Experience</h2>
-        <p className="mx-auto mt-3 max-w-xl text-center text-ink-muted">
-          TODO: fill in your real work history below, one entry per role.
-        </p>
 
         <div className="mx-auto mt-12 flex max-w-2xl flex-col gap-6">
-          {experience.map((job, index) => (
-            <div
-              key={index}
-              className="rounded-xl border border-dashed border-border bg-surface p-6"
-            >
+          {experience.map((job) => (
+            <div key={job.company} className="rounded-xl border border-border bg-surface p-6">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
                 <h3 className="text-lg font-bold text-ink">{job.role}</h3>
                 <span className="font-mono text-xs text-ink-muted">{job.period}</span>
