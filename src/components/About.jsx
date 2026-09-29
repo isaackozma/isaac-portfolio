@@ -22,7 +22,7 @@ function About() {
               and AI-powered tools.
             </p>
             <p>
-              Strong foundation in JavaScript, Python, React, Node.js, AWS and Docker, with team
+              Strong foundation in JavaScript, Java, Python, React, Node.js, AWS and Docker, with team
               leadership experience delivering complex technical projects.
             </p>
             <p>
