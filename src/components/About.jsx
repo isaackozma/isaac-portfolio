@@ -1,10 +1,11 @@
 import Reveal from './Reveal';
 
 const FACTS = [
-  { label: 'Education', value: 'Bachelor of IT, RMIT' },
+  { label: 'Education', value: 'Bachelor of IT, RMIT, 2024' },
   { label: 'Location', value: 'Melbourne, VIC' },
   { label: 'Focus', value: 'Full stack and DevOps' },
   { label: 'Interested in', value: 'Data and AI' },
+  { label: 'Certifications', value: 'AWS Cloud Foundations, Agile Development Principles' },
 ];
 
 function About() {
@@ -32,7 +33,12 @@ function About() {
 
           <dl className="grid grid-cols-2 gap-4 sm:content-start">
             {FACTS.map((fact) => (
-              <div key={fact.label} className="rounded-lg border border-border bg-surface p-4">
+              <div
+                key={fact.label}
+                className={`rounded-lg border border-border bg-surface p-4 ${
+                  fact.label === 'Certifications' ? 'col-span-2' : ''
+                }`}
+              >
                 <dt className="font-mono text-xs uppercase tracking-wide text-ink-muted">
                   {fact.label}
                 </dt>
