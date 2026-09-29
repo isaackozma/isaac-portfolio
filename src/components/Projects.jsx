@@ -6,7 +6,7 @@ function Projects() {
   const rest = projects.filter((project) => !project.featured);
 
   return (
-    <section id="projects" className="py-20">
+    <section id="projects" className="border-t border-border py-20">
       <h2 className="text-center text-2xl font-bold text-ink sm:text-3xl">Projects</h2>
       <p className="mx-auto mt-3 max-w-xl text-center text-ink-muted">
         A selection of things I have built, from data tools to production websites.

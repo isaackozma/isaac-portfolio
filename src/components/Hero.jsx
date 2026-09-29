@@ -2,7 +2,7 @@ import { DownloadIcon, GithubIcon, LinkedinIcon, MailIcon } from './icons';
 
 function Hero() {
   return (
-    <section id="top" className="mx-auto max-w-5xl px-6 pb-20 pt-16 sm:pt-24">
+    <section id="top" className="pb-20 pt-16 sm:pt-24">
       <div className="flex flex-col items-center text-center">
         <img
           src="/profile2.jpg"
