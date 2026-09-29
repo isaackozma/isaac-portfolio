@@ -4,7 +4,7 @@ const FACTS = [
   { label: 'Education', value: 'Bachelor of IT, RMIT, 2024' },
   { label: 'Location', value: 'Melbourne, VIC' },
   { label: 'Focus', value: 'Full stack and DevOps' },
-  { label: 'Interested in', value: 'Data and AI' },
+  { label: 'Interested in', value: 'Software Development, Data and AI' },
   { label: 'Certifications', value: 'AWS Cloud Foundations, Agile Development Principles' },
 ];
 
