@@ -20,7 +20,7 @@ function Projects() {
           ))}
         </div>
 
-        <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-3">
           {rest.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}

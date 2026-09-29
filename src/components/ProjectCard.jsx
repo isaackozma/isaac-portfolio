@@ -5,15 +5,25 @@ function ProjectCard({ project, featured = false }) {
   const { title, blurb, tags, image, links, note } = project;
 
   return (
-    <article className="group flex flex-col overflow-hidden rounded-xl border border-border bg-surface transition-colors hover:border-accent/50">
+    <article
+      className={`group flex flex-col overflow-hidden rounded-xl border bg-surface transition-colors hover:border-accent/50 ${
+        featured ? 'border-accent/30' : 'border-border'
+      }`}
+    >
       {image && (
         <div className="overflow-hidden">
           <ProjectImage src={image} title={title} />
         </div>
       )}
 
-      <div className="flex flex-1 flex-col gap-4 p-6">
-        <h3 className={featured ? 'text-xl font-bold text-ink' : 'text-lg font-bold text-ink'}>
+      <div className={`flex flex-1 flex-col gap-4 ${featured ? 'p-8' : 'p-6'}`}>
+        {featured && (
+          <span className="inline-flex w-fit items-center rounded-full bg-accent/15 px-2.5 py-1 font-mono text-[11px] uppercase tracking-wide text-accent">
+            Featured
+          </span>
+        )}
+
+        <h3 className={featured ? 'text-2xl font-bold text-ink' : 'text-lg font-bold text-ink'}>
           {title}
         </h3>
 
