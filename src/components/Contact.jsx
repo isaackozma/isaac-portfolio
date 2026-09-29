@@ -1,9 +1,10 @@
 import { GithubIcon, LinkedinIcon, MailIcon } from './icons';
+import Reveal from './Reveal';
 
 function Contact() {
   return (
     <section id="contact" className="border-t border-border py-20">
-      <div className="mx-auto max-w-xl text-center">
+      <Reveal className="mx-auto max-w-xl text-center">
         <h2 className="text-2xl font-bold text-ink sm:text-3xl">Contact</h2>
         <p className="mt-3 text-ink-muted">
           Open to junior software, full stack, DevOps and data/AI roles in Melbourne. Reach out
@@ -39,7 +40,7 @@ function Contact() {
             GitHub
           </a>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

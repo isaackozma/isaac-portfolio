@@ -9,15 +9,15 @@ const LINKS = [
 function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/80 bg-bg/80 backdrop-blur-md">
-      <nav className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <nav className="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
         <a
           href="#top"
-          className="font-mono text-sm font-semibold tracking-wide text-ink transition-colors hover:text-accent"
+          className="shrink-0 font-mono text-sm font-semibold tracking-wide text-ink transition-colors hover:text-accent"
         >
           isaac<span className="text-accent">.</span>dev
         </a>
 
-        <ul className="flex items-center gap-5 overflow-x-auto sm:gap-7">
+        <ul className="flex min-w-0 items-center gap-4 overflow-x-auto sm:gap-7">
           {LINKS.map((link) => (
             <li key={link.href}>
               <a
