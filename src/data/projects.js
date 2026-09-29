@@ -3,9 +3,11 @@ export const projects = [
     id: 'nfl-combine-analytics',
     title: 'NFL Combine Analytics Dashboard',
     blurb:
-      'Interactive web app that analyses NFL Combine performance using position-adjusted scoring. Generates an athletic score out of 100, ranks players within their position, and surfaces historically similar athletes based on combine metrics.',
-    tags: ['Python', 'Pandas', 'NumPy', 'Streamlit', 'Data Analysis', 'Data Visualisation', 'Algorithm Design'],
+      'Solo-built Streamlit app that scores NFL Combine athletes out of 100 using a position-adjusted algorithm, ranks players within their position, and finds historically similar athletes from combine metrics.',
+    tags: ['Python', 'Pandas', 'NumPy', 'Streamlit', 'Data Visualisation'],
     image: '/projects/nfl-combine.png',
+    imageAlt:
+      'Screenshot of the NFL Combine Analytics dashboard, showing a player leaderboard with athletic scores and a bar chart of the top ten scores.',
     featured: true,
     links: {
       demo: 'https://nfl-combine-analytics-bfpf5stst4sptnsw536ndy.streamlit.app',
@@ -13,25 +15,25 @@ export const projects = [
     },
   },
   {
-    id: 'super-nice-website',
-    title: 'Super Nice Website',
-    blurb:
-      'Designed and developed a website for a Melbourne-based clothing brand, contributing to over $50,000 in revenue through improved online presence and user experience.',
-    tags: ['Shopify', 'UX Design', 'Client Communication'],
-    featured: true,
-    note: 'Redevelopment in progress',
-    links: {},
-  },
-  {
     id: 'devops-deployment',
-    title: 'DevOps Deployment Project',
+    title: 'DevOps Infrastructure Deployment',
     blurb:
-      'Built and deployed an application pipeline with Docker, CI/CD and cloud infrastructure concepts as part of a DevOps course project.',
-    tags: ['Docker', 'GitHub Actions', 'CI/CD', 'Team Collaboration'],
+      'Provisioned AWS infrastructure with Terraform and Ansible, including EC2 instances, load balancing and automated environment configuration. Containerised a full stack app and PostgreSQL database with Docker, and set up remote state with S3 and DynamoDB to support CI/CD.',
+    tags: ['AWS', 'Terraform', 'Ansible', 'Docker', 'PostgreSQL'],
     featured: true,
     links: {
       code: 'https://github.com/rmit-sdo-2024-s2/S3791361-S3925811-assignment-2',
     },
+  },
+  {
+    id: 'super-nice-website',
+    title: 'Super Nice Clothing',
+    blurb:
+      'Web developer for a Melbourne clothing brand. Worked directly with the owner to align the site with business goals and brand identity, focusing on usability, mobile responsiveness and brand consistency. Now rebuilding it as a custom Shopify theme (in development).',
+    tags: ['Shopify', 'Liquid', 'JavaScript', 'Responsive Design'],
+    featured: true,
+    note: 'Redevelopment in progress',
+    links: {},
   },
   {
     id: 'burrito-king',

@@ -2,7 +2,7 @@ import ProjectImage from './ProjectImage';
 import { CodeIcon, ExternalLinkIcon } from './icons';
 
 function ProjectCard({ project, featured = false }) {
-  const { title, blurb, tags, image, links, note } = project;
+  const { title, blurb, tags, image, imageAlt, links, note } = project;
 
   return (
     <article
@@ -12,7 +12,7 @@ function ProjectCard({ project, featured = false }) {
     >
       {image && (
         <div className="overflow-hidden">
-          <ProjectImage src={image} title={title} />
+          <ProjectImage src={image} title={title} alt={imageAlt} />
         </div>
       )}
 

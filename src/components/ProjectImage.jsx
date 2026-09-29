@@ -10,7 +10,7 @@ function initials(title) {
     .toUpperCase();
 }
 
-function ProjectImage({ src, title }) {
+function ProjectImage({ src, title, alt }) {
   const [failed, setFailed] = useState(false);
 
   if (failed) {
@@ -26,7 +26,11 @@ function ProjectImage({ src, title }) {
   return (
     <img
       src={src}
-      alt={`Preview of ${title}`}
+      alt={alt || `Preview of ${title}`}
+      width={1910}
+      height={961}
+      loading="lazy"
+      decoding="async"
       className="aspect-video w-full object-cover"
       onError={() => setFailed(true)}
     />
