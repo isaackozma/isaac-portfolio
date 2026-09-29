@@ -1,7 +1,10 @@
 import { GithubIcon, LinkedinIcon, MailIcon } from './icons';
 import Reveal from './Reveal';
+import { useCopyToClipboard } from '../hooks/useCopyToClipboard';
 
 function Contact() {
+  const [copied, copyEmail] = useCopyToClipboard('kozmaisaac@gmail.com');
+
   return (
     <section id="contact" className="border-t border-border py-20">
       <Reveal className="mx-auto max-w-xl text-center">
@@ -14,10 +17,11 @@ function Contact() {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <a
             href="mailto:kozmaisaac@gmail.com"
+            onClick={copyEmail}
             className="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-bg transition-transform hover:-translate-y-0.5 hover:brightness-110 motion-reduce:transition-none motion-reduce:hover:translate-y-0"
           >
             <MailIcon className="h-4 w-4" />
-            Email Me
+            {copied ? 'Copied!' : 'Email Me'}
           </a>
 
           <a

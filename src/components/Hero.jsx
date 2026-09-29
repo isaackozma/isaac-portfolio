@@ -1,6 +1,9 @@
 import { DownloadIcon, GithubIcon, LinkedinIcon, MailIcon } from './icons';
+import { useCopyToClipboard } from '../hooks/useCopyToClipboard';
 
 function Hero() {
+  const [copied, copyEmail] = useCopyToClipboard('kozmaisaac@gmail.com');
+
   return (
     <section id="top" className="pb-20 pt-16 sm:pt-24">
       <div className="flex flex-col items-center text-center">
@@ -55,10 +58,11 @@ function Hero() {
 
           <a
             href="mailto:kozmaisaac@gmail.com"
+            onClick={copyEmail}
             className="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-2.5 text-sm font-semibold text-ink transition-colors hover:border-accent hover:text-accent"
           >
             <MailIcon className="h-4 w-4" />
-            Email
+            {copied ? 'Copied!' : 'Email'}
           </a>
         </div>
       </div>
