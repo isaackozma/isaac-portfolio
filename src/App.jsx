@@ -1,23 +1,15 @@
 import './App.css';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
 
-// App.jsx
 function App() {
   return (
-    <div className="app-container">
-      <header>
-        <nav>
-          <a href="#about">About</a>
-          <a href="#projects">Projects</a>
-          <a href="#contact">Contact</a>
-        </nav>
+    <>
+      <Nav />
+      <div className="app-container">
+        <Hero />
 
-        <img src="/profile2.jpg" alt="Isaac Kelly" className="profile-photo" />
-
-        <h1>Isaac Kelly</h1>
-        <p>Full Stack Developer | AI & Data Enthusiast | DevOps</p>
-      </header>
-
-      <section id="about">
+        <section id="about">
         <h2>About Me</h2>
         <p>
           Junior Software Engineer / Full Stack Developer with a Bachelor of Information Technology and hands-on experience building web applications, cloud infrastructure, and AI-powered tools. Strong foundation in JavaScript, Python, React, Node.js, AWS, and Docker, with team leadership experience delivering complex technical projects. Seeking junior software, backend, full stack, DevOps, or data/AI-focused roles based in Melbourne.
@@ -115,8 +107,9 @@ function App() {
             My Profile
           </a>
         </p>
-      </section>
-    </div>
+        </section>
+      </div>
+    </>
   );
 }
 
